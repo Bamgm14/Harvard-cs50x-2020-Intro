@@ -1,0 +1,1 @@
+select count(rating) as NumberOf10Rate from ratings where rating = 10.0;

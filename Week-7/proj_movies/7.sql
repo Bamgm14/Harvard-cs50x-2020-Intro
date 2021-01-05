@@ -1,0 +1,1 @@
+select m.title, r.rating from  movies as m,ratings as r where r.movie_id = m.id and m.year = 2010 and r.rating NOT NULL  order by r.rating desc, m.title;

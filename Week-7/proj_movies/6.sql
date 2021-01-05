@@ -1,0 +1,1 @@
+select avg(r.rating) as AverageRating from movies as m, ratings as r where r.movie_id = m.id and m.year = 2012;
